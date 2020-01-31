@@ -22,7 +22,7 @@ data:
 
   input-kubernetes.conf: |
     [INPUT]
-    Name              tail
+        Name              tail
         Tag               kube.*
         Path              /var/log/containers/*.log
         Parser            docker
